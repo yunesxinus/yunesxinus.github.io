@@ -1,218 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yunes</title>
-
-    <!--
-    - favicon
-  -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
-
-    <!--
-    - custom css link
-  -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <!--
-    - google font link
-  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8" />
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal WebSite</title>
   </head>
-
   <body>
-    <!--
-    - #MAIN
-  -->
-
-    <main>
-      <!--
-      - #SIDEBAR
-    -->
-
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/photo_2022-08-22_23-31-03.jpg" alt="Yunes" width="80" />
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Yunes</h1>
-
-            <p class="title">Programmer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-
-                <a href="mailto:contact@y3nes.me" class="contact-link"
-                  >contact@y3nes.me</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+989393275990" class="contact-link"
-                  >+98 939 327 5990</a
-                >
-              </div>
-            </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Isfahan, Isfahan, IRAN</address>
-              </div>
-            </li>
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/yunesxinus" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="https://twitter.com/Straightdozari" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a
-                href="https://www.instagram.com/straightdozari"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
-      <!--
-      - #main-content
-    -->
-
-      <div class="main-content">
-        <!--
-        - #ABOUT
-      -->
-
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">What i dont use</h2>
-          </header>
-
-          <section class="about-text">
-            <p>
-              via Luke Smith </br>
-Proprietary software
-It's sort of weird that my channel has gotten large enough that a huge slice of my viewership has missed one of the main points of my channel: the use of only libre software. I will not recommend, review or test out proprietary software. I'm not going to do a video on how to "rice" Google Chrome, I'm not going give you Linux hacks for Slack or Steam. I'm especially not going to endorse proprietary services that have gone out of their way to spy on or politically suppress their users, just as Discord or Amazon. One of the many potential take-aways you should get from my channel is that the use of libre/free software, by its nature, is more constructive and extensible—that's the point. There are philosophical reasons for this you'll run across in time, but for now, suffice it to say I will not support the usage of non-free software.
-            </p>
-          </section>
-
-          <!--
-          - service
-        -->
-
-          <section class="service">
-            <h3 class="h3 service-title">Currently</h3>
-
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">programming</h4>
-
-                  <p class="service-item-text">
-                    Programming python and rust for my university project.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                  <p class="service-item-text">
-                    Development of applications for iOS and
-                    Android.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-    <script src="./assets/js/script.js"></script>
-
-    <!--
-    - ionicon link
-  -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <div class="box">
+      <img src="profile.jpg" alt="" class="box-img" />
+      <h1>YunesXinus</h1>
+      <h5>Free Softwer enjoyer</h5>
+      <p>
+        Free software or libre software, infrequently known as
+        freedom-respecting software, is computer software distributed under
+        terms that allow users to run the software for any purpose as well as to
+        study, change, and distribute it and any adapted versions. Free software
+        is a matter of liberty, not price; all users are legally free to do what
+        they want with their copies of a free software (including profiting from
+        them) regardless of how much is paid to obtain the program. Computer
+        programs are deemed "free" if they give end-users (not just the
+        developer) ultimate control over the software and, subsequently, over
+        their devices.
+      </p>
+      <ul>
+        <li>
+          <a href="https://t.me/StraightDozari"
+            ><i class="fa fa-telegram" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Straightdozari"
+            ><i class="fa fa-twitter-square" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/yunesxinus"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
-  
